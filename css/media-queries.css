@@ -1,0 +1,89 @@
+/******** tablets (<1140px row)********/
+@media only screen and (max-width: 1200px){
+.hero-text-box{
+    width: 100%;
+    padding:0 10px;
+}
+section{padding: 0 2%;}
+
+}
+
+/******* i-pad-landscape(768 to 1023px) ******/
+@media only screen and (max-width: 1023px){
+    .row{padding: 0 2%;}
+    .plans-and-signup{font-size: 90%;
+    line-height: 2%;} 
+    .plans-box{padding: 0;}
+    form{padding-left: 0%;}
+}
+
+/******* i-pad(481 to 767px) ******/
+@media only screen and (max-width: 767px){
+body{font-size: 80%;
+font-weight: 100;}
+.m-icon{
+    display: inline;
+}
+.main-nav{
+    display: none;
+    float: left;
+}
+.main-nav li{
+    display: block;
+    margin: 25px 100px;
+}
+.main-nav li:link,
+.main-nav li:hover{
+    display: block;
+    border-bottom: 0px solid transparent;
+
+}
+.sticky .main-nav li a{
+    color: rgb(8, 8, 8);
+    display: block;
+}
+.sticky .main-nav li{
+    display: block;
+    margin: 20px 10px 20px 80px;
+}
+.sticky .m-icon{color: black;}
+}
+.plan-box i{
+    line-height: 100%;
+    font-size: 250%;
+    padding: 0;
+}
+.city i{
+    display: inline-block;
+    color: #5b9baf;
+    font-size: 100%;
+
+}
+
+
+
+
+/******* i-phones (0 to 480px)******/
+@media only screen and (max-width: 480px){
+   .main-nav{padding-left: 50px;}
+    *{font-weight: 100;}
+    .big-icon{
+ font-size: 300%;
+ color: #ef8729;
+ margin-left: 45%;
+}
+.city img{
+    width: 100%;
+}
+section {
+    padding: 2% 2%;
+}
+.plan-box{
+    margin-top: 5%;
+
+}
+label{
+    margin-left: 0%;
+}
+
+} 
